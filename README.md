@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="150" height="150" alt="tg_logo" src="https://github.com/user-attachments/assets/9dc26fce-775d-4cd3-a464-f5bf44a304ac" />
+  <img width="115" height="115" alt="tg_logo" src="https://github.com/user-attachments/assets/9dc26fce-775d-4cd3-a464-f5bf44a304ac" />
 
   A Telegram Bot that works with FastAPI to communicate with WayForPay API and SQLAlchemy to store user data
 </p>
