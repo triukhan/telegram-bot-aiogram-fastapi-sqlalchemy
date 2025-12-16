@@ -31,7 +31,7 @@ async def zoom_callback(request: Request):
         topic = rec_object.get('topic', '').lower()
         logger.info(f'ZOOM -> event: {data.get('event')} - topic: {topic} - duration: {duration}')
 
-        if duration > 15 and 'йога' in topic:
+        if duration > 15 and 'yoga' in topic:
             text = ZOOM_LINK.format(rec_object.get('share_url'), rec_object.get('password'))
             await app.bot.send_to_channel(text, parse_mode='HTML', disable_web_page_preview=True)
             logger.info('recording is valid - sent to chat')
